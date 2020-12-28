@@ -17,6 +17,10 @@ function search(e) {
 		// navigate to h4 in the card, get its value and change it to lower case
 		title = card.firstElementChild.textContent.toLowerCase();
 		// it search term not in the card's title hide the card. otherwise, show it.
-		title.includes(searchTerm) ? card.style.display = 'flex' : card.style.display = 'none';
+		if (title.includes(searchTerm)) {
+			card.style.display = 'flex';
+		} else {
+			card.style.display = 'none';
+		}
 	});
 }
