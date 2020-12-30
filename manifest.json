@@ -2,7 +2,13 @@
   "short_name": "القانون الاردني | Jordanian Law",
   "name": "القانون الاردني | Jordanian Law",
   "description": "",
-  "icons": [
+ "icons": [
+    {
+      "src": "./assets/icons/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "purpose": "any maskable"
+    },
     {
       "src": "./assets/icons/logo192.png",
       "type": "image/png",
